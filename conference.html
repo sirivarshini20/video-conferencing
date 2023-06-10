@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Conferencing</title>
+    <style>
+        #local-video {
+            width: 300px;
+            height: 225px;
+        }
+
+        #chat-messages {
+            height: 200px;
+            overflow-y: scroll;
+        }
+    </style>
+</head>
+<body>
+    <h1>Video Conferencing</h1>
+
+    <h2>Local Video</h2>
+    <video id="local-video" autoplay muted></video>
+
+    <h2>Chat</h2>
+    <div id="chat-messages"></div>
+    <input type="text" id="message-input" placeholder="Enter your message">
+    <button onclick="sendMessage()">Send</button>
+
+    <script src="Untitled-2.js"></script>
+</body>
+</html>
